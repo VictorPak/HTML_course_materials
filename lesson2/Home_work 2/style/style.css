@@ -3,7 +3,7 @@ body{
     width: 1000px;
     text-align: center;
     border:solid 1px;
-    
+    margin: 0 auto;
     
 }
 
@@ -17,4 +17,15 @@ p{
     font-style: italic;
     font-weight: bold;
     
+}
+ul{
+    text-align: center;
+    list-style-type: none  
+}
+.imagePoster{
+    background-image: url("../images/04.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+
+
 }
