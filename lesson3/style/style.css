@@ -1,12 +1,15 @@
 .wrapper {
-    width: 1060px; 
-    height: 1000px; 
+    width: 1061px; 
+    height: 949px; 
     margin: 0 auto; 
     border-left: 1px solid grey; 
     border-right: 1px solid grey;
     padding-left: 46px;
     padding-right: 46px;
     box-sizing: border-box;
+}
+.logo {
+    padding: 50px 0 40px 0;
 }
 
 .header-menu {
@@ -16,9 +19,6 @@
     padding-top: 14px;
     box-sizing: border-box;
     
-}
-.logo {
-    padding: 50px 0 40px 0;
 }
 
 .header-menu ul li a {
@@ -85,14 +85,42 @@
 
 .main-text {
     width: 674px;
-    height: 400px;
+    height: 240px;
     float: left;
     margin-top: 40px;
     margin-left: 313px;
-
 }
 .main-text p {
-    padding-right: 32px;
+    padding-right: 32px; 
     
-    
+}
+.footer  {
+    width: 967px;
+    height: 40px;
+    background-color: #e1e1e1;
+    float: left;
+}
+.footer-menu ul li a{
+    display: block;
+    padding: 13px 69px 0 25px;  
+    float: left;
+    font-family: Myriad Pro sans-serif;
+    font-size: 12px;
+    color: #2c2c2c;
+}
+.footer-menu-list a{
+    text-decoration: none;
+}
+.footer-menu-goods a {
+    text-decoration: underline;
+}
+
+.footer-copyrightes {
+    display: block;
+    padding: 13px 27px 0 25px;  
+    float: right;
+    font-family: Myriad Pro sans-serif;
+    font-size: 12px;
+    color: #2c2c2c;
+
 }
