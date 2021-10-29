@@ -24,7 +24,7 @@
 .header-menu ul li a {
     display: block;
     padding-left: 25px;
-    padding-right: 84px;
+    padding-right: 60px;
     text-decoration: none;
     float: left;
     font-family: Myriad Pro sans-serif;
@@ -36,4 +36,25 @@
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
 
+}
+
+
+.sidebar-menu {
+    height: 240px;
+    width: 240px;
+    margin-top: 40px;
+    border: 1px solid #c8c8c8;
+}
+.sidebar-menu ul li {
+    
+    border-bottom: 1px solid #c8c8c8;
+    padding: 13px 0 7px 23px;
+    box-sizing: border-box;
+    font-family: Myriad Pro sans-serif;
+    font-size: 13px;
+
+}
+.sidebar-menu ul li a {
+    text-decoration: none;
+    color: #656363;
 }
