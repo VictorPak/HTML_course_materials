@@ -5,3 +5,11 @@
     border-left: 1px solid grey;
     border-right: 1px solid grey;
  }
+
+ .nav {
+     width: 1280px;
+     height: 64px;
+ }
+ .logo {
+    margin: 16px 1104px 16px 72px;
+ }
