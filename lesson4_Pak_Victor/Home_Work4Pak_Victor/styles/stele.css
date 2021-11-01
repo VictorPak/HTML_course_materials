@@ -6,10 +6,105 @@
     border-right: 1px solid grey;
  }
 
- .nav {
+ .nav_bar {
      width: 1280px;
      height: 64px;
+     border:1px solid gray;
  }
  .logo {
-    margin: 16px 1104px 16px 72px;
+    position: absolute;
+    width: 104px;
+    height: 32px;
+    left: 72px;
+    top: 16px;
+    /* margin: 16px 1104px 16px 72px;
+    float: left; */
  }
+
+ .logo ul li a {
+    position: absolute;
+    width: 120px;
+    height: 56px;
+    left: 296px;
+    top: 8px;
+    
+
+   /* Menu link 01 */
+
+
+    /* position: relative;
+    left: 6.67%;
+    right: 6.67%;
+    top: 28.57%;
+    bottom: 42.86%; */
+
+    /* Nav_link_01 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    /* display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0066CC; */
+
+
+ }
+
+/* 
+ Правила для баннера в header */
+ .banner {
+    /* position: absolute;
+    left: 5.9%;
+    right: 5.21%;
+    top: 3.98%;
+    bottom: 89.89%; */
+    background-image: url(../images/Title_big_v1.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 1280px;
+    left: 85px;
+    top: 130px;
+    border-radius: 0px;
+
+ }
+
+
+ .breadcrumbs {
+    position: absolute;
+    width: 1280px;
+    height: 56px;
+    left: 86px;
+    top: 330px;
+    border: 1px solid grey;
+ }
+
+
+ /* Desktop_wrapper_03 */
+
+.main {
+    position: absolute;
+    width: 1280px;
+    height: 528px;
+    left: 89px;
+    top: 386px;
+    border: 1px solid grey;
+}
+
+
+
+.footer{
+    position: absolute;
+    width: 1280px;
+    height: 256px;
+    left: 94px;
+    top: 914px;
+    border: 1px solid grey;
+}
