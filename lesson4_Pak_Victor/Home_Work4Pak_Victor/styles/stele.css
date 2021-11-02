@@ -159,3 +159,12 @@
    left: 0px;
    top: 66px;
 }
+
+.breadcrumbs{
+   position: absolute;
+   width: 1280px;
+   height: 56px;
+   left: 0px;
+   top: 264px;
+   border: 1px solid gray;
+}
