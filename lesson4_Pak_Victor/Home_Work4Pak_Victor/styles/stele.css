@@ -11,6 +11,8 @@
    height: 64px;
    border:1px solid gray;
    background-color: khaki;
+   position: relative;
+   
  }
  .logo {
     position: relative;
@@ -24,15 +26,15 @@
 
  .nav-menu{
     text-transform: uppercase;
-    float: left;
+   
  }
  
  .menu-link-01{
-   position: relative;
+   position: absolute;
    width: 120px;
    height: 56px;
    left: 296px;
-   top: -27px;
+   top: 8px;
    border: 1px solid gray;
    padding: 16px 8px 0 8px;
    box-sizing: border-box;
@@ -59,12 +61,22 @@
 
 }
 .menu-link-02{
-   position: relative;
+   position: absolute;
    width: 120px;
    height: 56px;
    left: 440px;
-   top: -83px;
+   top: 8px;
    border: 1px solid gray;
+   padding: 16px 8px 0 8px;
+   box-sizing: border-box;
    background-color: greenyellow;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto Slab', serif;
+   font-family: 'Rubik', sans-serif;
+   font-size: 14px;
+   line-height: 16px;
+
   
 }
