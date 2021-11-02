@@ -12,7 +12,7 @@
      border:1px solid gray;
  }
  .logo {
-    position: absolute;
+    position: relative;
     width: 104px;
     height: 32px;
     left: 72px;
@@ -32,30 +32,14 @@
    /* Menu link 01 */
 
 
-    /* position: relative;
-    left: 6.67%;
-    right: 6.67%;
-    top: 28.57%;
-    bottom: 42.86%; */
-
-    /* Nav_link_01 */
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 114% */
-
-    /* display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #0066CC; */
-
-
+   .menu-link-01{
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0.04em;
+   text-align: center;
  }
 
 /* 
@@ -78,7 +62,7 @@
 
 
  .breadcrumbs {
-    position: absolute;
+    position: relative;
     width: 1280px;
     height: 56px;
     left: 86px;
@@ -90,7 +74,7 @@
  /* Desktop_wrapper_03 */
 
 .main {
-    position: absolute;
+    position: relative;
     width: 1280px;
     height: 528px;
     left: 89px;
@@ -101,7 +85,7 @@
 
 
 .footer{
-    position: absolute;
+    position: relative;
     width: 1280px;
     height: 256px;
     left: 94px;
