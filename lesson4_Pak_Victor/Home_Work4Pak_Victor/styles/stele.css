@@ -2,8 +2,8 @@
     width: 1280px;
     height: 1031px;
     margin: 0 auto;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    /* border-left: 1px solid grey; */
+    /* border-right: 1px solid grey; */
     position: relative;
  }
 
@@ -15,7 +15,7 @@
    width: 1280px;
    height: 64px;
    border:1px solid gray;
-   background-color: khaki;
+   /* background-color: khaki; */
    position: relative;
    
  }
@@ -40,7 +40,7 @@
    height: 56px;
    left: 296px;
    top: 8px;
-   border: 1px solid gray;
+   /* border: 1px solid gray; */
    padding: 16px 8px 0 8px;
    box-sizing: border-box;
    font-family: 'Inter', sans-serif;
@@ -50,7 +50,7 @@
    font-family: 'Rubik', sans-serif;
    font-size: 14px;
    line-height: 16px;
-   background-color: green;
+   /* background-color: green; */
 
  
 }
